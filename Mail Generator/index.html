@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>OOO Mail Generator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="intro-page" id="intro-page">
+            <div class="title">
+                <h2>OUT OF OFFICE MAIL GENERATOR</h2>
+                <p>It's all here for you !!</p>
+            </div>
+        </div>
+        <div class="input-section">
+            <div class="input-title">
+                <h2>READY TO TAKE TIME OFF ?</h2>
+                <p class="para2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur soluta iusto reiciendis placeat recusandae laboriosam eos ex, nam enim voluptatem minus expedita minima adipisci numquam necessitatibus nisi et natus magni.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias pariatur quos deleniti nemo ab qui! Dolorem voluptas, iure quasi quibusdam eos id quos quo sapiente quod atque exercitationem placeat magni.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, incidunt? Magni consectetur amet mollitia asperiores ad dolore cumque odit optio, similique quasi, deleniti libero voluptatem impedit temporibus autem? Rerum, voluptas.
+                </p>
+                <div class="inputs">
+                    <input type="text" class="input" id="first-name" placeholder="First Name">
+                    <input type="text" class="input" id="last-name" placeholder="Last Name">
+                    <input type="text" class="input" id="start-date" placeholder="Start Date">
+                    <input type="text" class="input" id="end-date" placeholder="End Date">
+                    <input type="text" class="input" id="destination" placeholder="Destination">
+                    <input type="text" class="input" id="activity" placeholder="Activity">
+                    <input type="text" class="input" id="contact-no" placeholder="Emergency Conatact Number">
+                    <input type="text" class="input" id="email" placeholder="Emergency Conatact Email">
+                </div>
+                <button id="btn">Generate</button>
+            </div>
+        </div>
+        <div class="messages">
+            <div class="message">
+                <h1 class="message-heading">Message 1</h1>
+                <p class="para">Hello,<br/> I'm <span id="firstName1"></span> <span id="lastName1"></span> <br/> But I have to admit, your email caught me off guard. It’s the holiday season, after all. Offices are empty. Desks are collecting dust. Mail is building up. Personally, I’m not sure I’d know how to use Excel right now if it hit me in the face. </p>
+                <p class="para">I’m out of the office from <span id="startDate1"></span> to <span id="endDate1"></span> at <span id="destination1"></span> for <span id="activity1"></span></p>
+                <p class="para">My emergency contact number is <span id="contact1"></span> and my emergency email ID is <span id="email1"></span></p>
+            </div>
+            <div class="message">
+                <h1 class="message-heading">Message 2</h1>
+                <p class="para">Hi there, thanks for your email. Unfortunately (or not, if you’re me), I’m on vacation from <span id="startDate2"></span> to <span id="endDate2"></span>
+                . And before you get jealous, I have something that will help your office blues. Please enjoy this 10-hour video loop of a crackling fireplace: https://www.youtube.com/watch?v=ZY3J3Y_OU0w</p>
+                <p class="para">I'll be at <span id="destination2"></span> for my <span id="activity2"></span></p>
+                <p class="para">In case of emergency here are contact details <span id="contact2"></span> <span id="email2"></span></p>
+                <p class="para">Thankyou and regards, <br/> <span id="firstName2"></span> <span id="lastName2"></span></p>
+            </div>
+            <div class="message">
+                <h1 class="message-heading">Message 3</h1>
+                <p class="para">You’ve reached <span id="firstName3"></span> <span id="lastName3"></span> inbox. They're out of office <span id="startDate3"></span> to <span id="endDate3"></span> while in <span id="destination3"></span> enjoying <span id="activity3"></span> But, before you click “move to trash,” give the #HolidayBot a chance to share a helpful tip for the season. </p>
+                <p class="para">If your calendar looks like mine, you may have a handful of holiday parties you don’t remember RSVP’ing “yes” to. If that is the case, you’ll want to reconsider the present that oftentimes is overlooked as the laughing stock of gift giving: the fruitcake. </p>
+                <p class="para">Here’s a modern-day fruitcake recipe that I think will wow guests. And if you hear a giggle in the crowd, don’t hold back on mentioning that this is one of the only desserts that can last up to 6 months. That means it’s not just a miracle, but also an economically friendly present guests should jump for joy over. </p>
+                <p class="para">If your email isn’t about the myths and misconceptions of the fruitcake, I really can’t help you. You’ll have to either ask <span id="contact3"></span> <span id="email3"></span> or wait until cmlmsdclsdcksdnc returns. </p>
+                <p class="para">Good luck with baking! <br/> #HolidayBot</p>
+            </div>
+            <div class="message">
+                <h1 class="message-heading">Message 4</h1>
+                <p class="para">I really can’t stay… (because I’m out of office right now.)</p>
+                <p class="para">I gotta go away… (I’ll be gone from <span id="startDate4"></span> to <span id="endDate4"></span> )</p>
+                <p class="para">This evening has been so very nice… (in <span id="firstName4"></span> <span id="lastName4"></span>)</p>
+                <p class="para">Maybe it’s cold outside….(wherever you are right now.)</p>
+                <p class="para">But really I’d better scurry… (and get to my kd cs kcsd.)</p>
+                <p class="para">But really I’d better scurry… (and get to my <span id="destination4"></span> <span id="activity4"></span>)</p>
+                <p class="para">And if you start to worry… (<span id="contact4"></span>) <br/> But only if you’re pacing the floor… (email them at <span id="email4"></span>)</p>
+                <p class="para">I simply must go… (But I’ll respond when I return.)</p>
+                <p class="para">And if it’s cold outside…. Enjoy this rendition of Michael Buble’s Baby It’s Cold Outside (https://www.youtube.com/watch?v=6bbuBubZ1yE)</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
